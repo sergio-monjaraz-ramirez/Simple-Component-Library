@@ -1,7 +1,6 @@
 # Simple Component Library
 
-A reusable component library built with Vuetify to simplify database interactions in your Node.js applications.
-
+A reusable component library built with Vuetify
 
 ## Installation
 
