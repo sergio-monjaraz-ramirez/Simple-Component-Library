@@ -1,0 +1,16 @@
+export { default as StarComponent } from "./StarComponent.vue";
+export { default as NameComponent } from "./NameComponent.vue";
+export { default as DateComponent } from "./DateComponent.vue";
+export { default as BoxComponent } from "./BoxComponent.vue";
+export { default as ImageComponent } from "./ImageComponent.vue";
+export { default as AverangeComponent } from "./AverangeComponent.vue";
+export { default as ProgressBarComponent } from "./ProgressBarComponent.vue";
+export { default as TableComponent } from "./TableComponent.vue";
+export { default as ComparedComponent } from "./ComparedComponent.vue";
+export { default as SingleBarComponent } from "./SingleBarComponent.vue";
+export { default as QuestionScoreComponent } from "./QuestionScoreComponent.vue";
+export { default as ReviewComponent } from "./ReviewComponent.vue";
+export { default as BarComponent } from "./charts/BarComponent.vue";
+export { default as StarsByQuestions } from "./charts/StarsByQuestions.vue";
+export { default as PieComponent } from "./charts/PieComponent.vue";
+export { default as ServicesComponent } from "./ServicesComponent.vue";
