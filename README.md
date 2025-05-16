@@ -12,14 +12,14 @@ npm install simple-component-library
 ## Usage
 
 ```javascript
-const { UserModel, connectToDatabase } = require('simple-component-library');
+import NameComponent from 'simple-component-library'
 
-// Connect to the database
-connectToDatabase('mongodb://localhost:27017/mydatabase');
-
-// Use the predefined UserModel
-const user = new UserModel({ name: 'John Doe', email: 'john@example.com' });
-await user.save();
+<template>
+  <NameComponent
+    name="John Doe"
+    secondaryText="Lorem ipsum dolor sit amet, consectetur adipis"
+  />
+</template>
 ```
 
 ## Documentation
